@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz {
+  margin-top: 20px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options button.selected {
+  background-color: #add8e6;
+  font-weight: bold;
+}
+
+button {
+  
+  background-color: lightgreen;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.restart-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
